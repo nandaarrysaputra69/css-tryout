@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+  }
+
+/*navbar*/
+li {
+    display: inline-block;
+}
+a {
+    color: rgba(0, 167, 64);
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.logo i {
+    color: rgba(0, 167, 64);
+    font-size: 36px;
+}
+
+.logo p {
+    color: rgba(0, 167, 64);
+    font-weight: bolder;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    font-weight: bold;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    z-index: 99;
+  }
+
+.navbar a:hover {
+    color: rgba(0, 202, 78);
+}
+
+.nav-wrapper {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link ul {
+    display: flex;
+    gap: 48px;
+}
+/*navbar*/
+
+/*banner*/
+.banner {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.banner h1 {
+    font-size: 56px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-weight: normal;
+    text-align: center;
+}
+
+.banner a {
+    background-color: whitesmoke;
+    color: rgba(0, 167, 64);
+    padding: 12px 24px;
+    font-weight: bolder;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+.banner a:hover {
+    background-color: whitesmoke;
+    color: rgba(0, 202, 78);
+}
+
+.banner .container {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+
+.banner-wrapper {
+    background-color: rgba(0, 167, 64, 0.349);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/*banner*/
+
+/*product*/
+.product {
+    color: rgba(0, 167, 64);
+    margin-top: 60px;
+}
+
+.product .title {
+    text-align: center;
+}
+
+.product h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.product p {
+    color: rgba(51, 51, 51);
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.product-box {
+    display: grid;
+    margin-top: 60px;
+    column-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-box .box {
+    display: grid;
+    place-items: center;
+    gap: 5px;
+}
+
+.product .box i {
+    color: whitesmoke;
+    background-color: rgba(0, 167, 64);;
+    font-size: 36px;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+/*product*/
+
+/*about us*/
+.about {
+    color: rgba(0, 167, 64);
+    margin: 150px 0;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    place-items: center;
+}
+
+.about p {
+    color: rgba(51, 51, 51);
+    font-weight: normal;
+}
+
+.about-wrapper img {
+    width: 100%;
+    border-radius: 7px;
+}
+/*about us*/
+
+/*testi*/
+.testi {
+    color: rgba(51, 51, 51);
+    margin: 150px 0;
+}
+
+.testi .container {
+    position: relative;
+}
+
+.testi .card {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 36px;
+}
+
+.testi img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.testi h3 {
+    color: rgba(0, 167, 64);
+}
+
+.testi p {
+    font-size: 16px;
+}
+
+.testi i {
+    color: rgba(0, 167, 64);
+    font-size: 100px;
+    position: absolute;
+    top: -50%;
+    bottom: 50%;
+    transform: translateY(50%);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.bx-chevron-right {
+    right: 0;
+}
+/*testi*/
+
+/*email*/
+.email {
+    background-color: rgba(0, 167, 64);
+    padding: 50px 0;
+}
+
+.email a {
+    background-color: whitesmoke;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+
+.email-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+input {
+    padding: 7px;
+    height: 36px;
+    width: 600px;
+    border: none;
+    border-radius: 7px;
+}
+
+input:focus {
+    outline: none;
+}
+/*email*/
+
+/*contact*/
+.contact {
+    color: rgba(51, 51, 51);
+    margin: 150px 0;
+}
+
+.contact .box-left {
+    width: 20%;
+}
+
+.contact .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact h1 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact a {
+    color: rgba(51, 51, 51);
+    font-weight: normal;
+}
+
+.contact a:hover {
+    color: rgba(0, 202, 78);
+}
+
+.contact .social {
+    padding-top: 10px;
+    font-size: 36px;
+}
+/*contact*/
+
+/*footer*/
+footer {
+    background-color: rgba(51, 51, 51);
+    display: flex;
+    gap: 5px;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: small;
+}
+
+footer a {
+    font-size: small;
+}
+
+footer a:hover {
+    color: rgba(0, 202, 78);
+}
+
+footer i {
+    color: red;
+}
+/*footer*/
