@@ -1,2 +1,4 @@
 # css-tryout
-https://nandak-css.netlify.app/
+For Web Development Submission
+
+<a href="https://nandak-css.netlify.app/" target="_blank">Result.</a>
