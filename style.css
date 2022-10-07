@@ -39,7 +39,7 @@ a {
 }
 
 .navbar {
-    background-color: whitesmoke;
+    background-color: white;
     font-weight: bold;
     position: fixed;
     margin: auto;
@@ -88,7 +88,7 @@ a {
 }
 
 .banner a {
-    background-color: whitesmoke;
+    background-color: white;
     color: rgba(0, 167, 64);
     padding: 12px 24px;
     font-weight: bolder;
@@ -97,12 +97,12 @@ a {
 }
 
 .banner a:hover {
-    background-color: whitesmoke;
+    background-color: white;
     color: rgba(0, 202, 78);
 }
 
 .banner .container {
-    color: whitesmoke;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,7 +157,7 @@ a {
 }
 
 .product .box i {
-    color: whitesmoke;
+    color: white;
     background-color: rgba(0, 167, 64);;
     font-size: 36px;
     padding: 15px;
@@ -245,7 +245,7 @@ a {
 }
 
 .email a {
-    background-color: whitesmoke;
+    background-color: white;
     font-size: 16px;
     padding: 12px 24px;
     font-weight: bolder;
@@ -323,7 +323,7 @@ footer {
 }
 
 footer p {
-    color: whitesmoke;
+    color: whites;
     font-size: small;
 }
 
